@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open Sans|Montserrat">
+    <title>Weather App</title>
+</head>
+<body>
+    <header class="main-header">
+         <!--Location Search-->
+         <div class="location-search">
+            <!--Location Search Box-->
+            <input type="text" id="search_bar" placeholder="Search Location">
+            <button class="location-search_button" id="search" onclick="SearchCity()"><i class="fa-solid fa-magnifying-glass "></i></button>
+            <button  class="location-search_button" id="location" onclick="getLocation()"><i class="fa-solid fa-location"></i></button>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="blackbox" id="black_box">,
+                <div class="weather_stats">
+                    <div class="stats box">
+                        <span id="temp_deg">...</span>
+                        <span id="city">...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>

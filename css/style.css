@@ -67,14 +67,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 680px;
+    height: 775.5px;
 }
 
 /* BlackBox */
 .blackbox {
     display: none;
     width: 100%;
-    height: 680px;
+    height: 775.5px;
     background-color: rgba(0, 0, 0, 0.623);
 }
 
